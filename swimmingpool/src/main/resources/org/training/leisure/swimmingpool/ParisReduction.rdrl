@@ -11,12 +11,12 @@ rule "ParisReduction"
 	ruleflow-group "reduction"
 	when
 		pper : Person( sprice : standardPrice > 0.0B , standardPrice != ( -1.0B ) )
-		not (pprice : Price( description == "LilleReduction80%" ) and Person( this == pper , priceList contains pprice )) 
-		Address( cityName == "Lille" || cityName == "lille" )
+		not (pprice : Price( description == "ParisReduction80%" ) and Person( this == pper , priceList contains pprice )) 
+		Address( cityName == "paris" || cityName == "Paris" )
 	then
 		Price nprice = new Price();
-		nprice.setDescription( "LilleReduction80%" );
-		nprice.setAmount( sprice.divide(new BigDecimal("1.25"),BigDecimal.ROUND_HALF_UP) );
+		nprice.setDescription( "ParisReduction80%" );
+		nprice.setAmount( sprice.divide(new BigDecimal("4.0"),BigDecimal.ROUND_HALF_UP) );
 		nprice.setPriceType( PriceType.promotion );
 		insert( nprice );
 		pper.addPrice( nprice );
