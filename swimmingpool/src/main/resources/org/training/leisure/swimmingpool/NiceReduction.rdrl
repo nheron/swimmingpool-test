@@ -6,7 +6,7 @@ import org.chtijbug.example.swimmingpool.Address;
 import org.chtijbug.example.swimmingpool.Price;
 import org.chtijbug.example.swimmingpool.SeasonType;
 
-rule "ZurichReduction"
+rule "NiceReduction"
 	dialect "mvel"
 	ruleflow-group "reduction"
 	when
