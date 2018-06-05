@@ -12,7 +12,7 @@ rule "LilleReduction"
 	when
 		pper : Person( sprice : standardPrice > 0.0B , standardPrice != ( -1.0B ) )
 		not (pprice : Price( description == "LilleReduction80%" ) and Person( this == pper , priceList contains pprice )) 
-		Address( cityName == "nice" || cityName == "Nice" )
+		Address( cityName == "Lille" || cityName == "lille" )
 	then
 		Price nprice = new Price();
 		nprice.setDescription( "LilleReduction80%" );
