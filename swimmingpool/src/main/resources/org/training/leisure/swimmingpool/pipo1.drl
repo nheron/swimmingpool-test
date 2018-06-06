@@ -7,7 +7,7 @@ rule "Row 4 pipo"
 	dialect "java"
 	when
 		p : Person( age >= 18.0 , age < 60.0 , standardPrice == -1.0B )
-		per : Period( seasonType.equals(SeasonType.day) )
+		per : Period(  )
 	then
 		modify( p ) {
 				setStandardPrice( new java.math.BigDecimal("12") )
