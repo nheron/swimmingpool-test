@@ -71,6 +71,22 @@
           <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueNumeric>0.0</valueNumeric>
+            <valueString></valueString>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>true</hideColumn>
+          <width>-1</width>
+          <header>DefaulValue</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>standardPrice</factField>
+          <fieldType>BigDecimal</fieldType>
+          <operator>==</operator>
+          <parameters/>
+        </condition-column52>
       </conditions>
       <window>
         <operator></operator>
@@ -194,6 +210,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -237,6 +259,12 @@
         <valueNumeric class="double">11.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -286,6 +314,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.day</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -332,6 +366,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.day</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -374,6 +414,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -423,6 +469,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.week</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -466,6 +518,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -515,6 +573,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.week</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -557,6 +621,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -606,6 +676,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.weekend</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -649,6 +725,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -698,6 +780,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.weekend</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -740,6 +828,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -789,6 +883,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.month</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -832,6 +932,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -881,6 +987,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.month</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -923,6 +1035,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -972,6 +1090,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.summer</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1015,6 +1139,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1064,6 +1194,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.summer</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1106,6 +1242,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1155,6 +1297,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.winter</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1198,6 +1346,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1247,6 +1401,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.winter</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1289,6 +1449,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1338,6 +1504,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.spring</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1381,6 +1553,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1430,6 +1608,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.spring</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1472,6 +1656,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1521,6 +1711,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.autumn</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1564,6 +1760,12 @@
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1613,6 +1815,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.autumn</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1655,6 +1863,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1704,6 +1918,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.fullYear</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1750,6 +1970,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>SeasonType.fullYear</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1784,7 +2010,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">18.0</valueNumeric>
+        <valueNumeric class="double">12.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1796,12 +2022,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SeasonType.fullYear</valueString>
+        <valueNumeric>0.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>SeasonType.day</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>60</valueNumeric>
+        <valueNumeric>500</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1838,6 +2070,12 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>-1.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
