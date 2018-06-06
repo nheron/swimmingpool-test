@@ -13,7 +13,7 @@ rule "toto"
 			
 	then
 		modify( pp ) {
-						setStandardPrice(new BigDecimal("-50.0")  )
+						setStandardPrice(new BigDecimal("+500.0")  )
 						//setStandardPrice( new BigDecimal("-1.0") )
 				}
 end
