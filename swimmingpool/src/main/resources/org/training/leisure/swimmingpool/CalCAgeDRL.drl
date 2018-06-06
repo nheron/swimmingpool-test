@@ -5,7 +5,7 @@ import java.lang.Number;
 import org.chtijbug.example.swimmingpool.Person;
 import org.chtijbug.example.swimmingpool.Quote;
 
-rule "Calc2"
+rule "CalcAgeFromCurrentDate"
 	dialect "java"
 	when
 		pp : Person( bdate : birthdate != null , age == ( -1.0 ) )
