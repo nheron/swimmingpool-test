@@ -52,8 +52,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>121</executionTimeResult>
-      <numberOfRulesFired>6</numberOfRulesFired>
+      <executionTimeResult>253</executionTimeResult>
+      <numberOfRulesFired>4</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -69,9 +69,9 @@
         <expect-field>
           <fieldName>standardPrice</fieldName>
           <expected>12</expected>
-          <actualResult>12</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p1] field [standardPrice] was [12].</explanation>
+          <actualResult>-1.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p1] field [standardPrice] was [-1.0] expected [12].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -91,18 +91,18 @@
         <expect-field>
           <fieldName>amount</fieldName>
           <expected>-1</expected>
-          <actualResult>-1</actualResult>
-          <successResult>true</successResult>
-          <explanation>[Price] field [amount] was [-1].</explanation>
+          <actualResult>0.0</actualResult>
+          <successResult>false</successResult>
+          <explanation>[Price] field [amount] was [0.0] expected [-1].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>description</fieldName>
           <expected>BirthdayReduction</expected>
-          <actualResult>No match</actualResult>
-          <successResult>true</successResult>
-          <explanation>[Price] field [description] was [BirthdayReduction].</explanation>
+          <actualResult>Final</actualResult>
+          <successResult>false</successResult>
+          <explanation>[Price] field [description] was [Final] expected [BirthdayReduction].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -113,9 +113,9 @@
     <expect-rule>
       <ruleName>BirthdayReduction</ruleName>
       <expectedCount>1</expectedCount>
-      <explanation>Rule [BirthdayReduction] activated 1 times.</explanation>
-      <successResult>true</successResult>
-      <actualResult>1</actualResult>
+      <explanation>Rule [BirthdayReduction] activated 0 times. Expected 1 times.</explanation>
+      <successResult>false</successResult>
+      <actualResult>0</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues/>
@@ -123,7 +123,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-06-27 13:55:05.361 UTC</lastRunResult>
+  <lastRunResult>2018-06-06 09:28:28.227 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.training.leisure.swimmingpool</packageName>
@@ -143,6 +143,9 @@
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>org.chtijbug.example.swimmingpool.Address</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.chtijbug.example.swimmingpool.CalculatedAttribute</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
