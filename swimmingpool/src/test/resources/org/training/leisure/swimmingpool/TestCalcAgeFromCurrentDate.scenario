@@ -11,6 +11,11 @@
           <value>01-Dec-1985</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>age</name>
+          <value>-1.0 </value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>p</name>
       <isModify>false</isModify>
@@ -31,17 +36,17 @@
       <name>init</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>15</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>146</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>30.5</expected>
-          <actualResult>0.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[p] field [age] was [0.0] expected [30.5].</explanation>
+          <actualResult>-1.0</actualResult>
+          <successResult>true</successResult>
+          <explanation>[p] field [age] was [30.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -51,13 +56,13 @@
     </expect-fact>
     <expect-rule>
       <ruleName>CalcAgeFromCurrentDate</ruleName>
-      <expectedCount>1</expectedCount>
-      <explanation>Rule [CalcAgeFromCurrentDate] activated 0 times. Expected 1 times.</explanation>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
+      <explanation>Rule [CalcAgeFromCurrentDate] was activated 2 times.</explanation>
+      <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>2</actualResult>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2016-06-23 15:16:19.254 UTC</lastRunResult>
+  <lastRunResult>2018-06-06 09:28:18.225 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.training.leisure.swimmingpool</packageName>
