@@ -51,8 +51,20 @@
       <name>per</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>InsertPeriod</type>
+      <fieldData>
+        <field-data>
+          <name>enumValue</name>
+          <value>day</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>ip</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
-      <executionTimeResult>253</executionTimeResult>
+      <executionTimeResult>245</executionTimeResult>
       <numberOfRulesFired>4</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -122,8 +134,22 @@
       <name>Period</name>
       <anonymous>true</anonymous>
     </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>key</fieldName>
+          <expected>IsPersonBirthday</expected>
+          <successResult>true</successResult>
+          <explanation>[CalculatedAttribute] field [key] was [IsPersonBirthday].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>CalculatedAttribute</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2018-06-06 09:28:28.227 UTC</lastRunResult>
+  <lastRunResult>2018-06-06 09:32:00.822 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.training.leisure.swimmingpool</packageName>
