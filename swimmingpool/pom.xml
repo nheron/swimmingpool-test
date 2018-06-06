@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.training.Leisure</groupId>
   <artifactId>swimmingpool</artifactId>
-  <version>1.0.8</version>
+  <version>1.0.9</version>
   <packaging>pom</packaging>
   <name>swimmingpool</name>
   <dependencies>
