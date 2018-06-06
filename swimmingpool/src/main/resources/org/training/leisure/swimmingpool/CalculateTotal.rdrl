@@ -6,7 +6,7 @@ import org.chtijbug.example.swimmingpool.Price;
 import org.chtijbug.example.swimmingpool.Person;
 
 rule "CalculateTotal"
-	dialect "java"
+	dialect "mvel"
 	ruleflow-group "subscription"
 	when
 		not (Price( priceType == PriceType.definitive )) 
