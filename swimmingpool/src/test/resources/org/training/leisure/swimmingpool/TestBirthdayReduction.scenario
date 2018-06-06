@@ -52,7 +52,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>298</executionTimeResult>
+      <executionTimeResult>297</executionTimeResult>
       <numberOfRulesFired>5</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -118,7 +118,16 @@
       <actualResult>0</actualResult>
     </expect-rule>
     <expect-fact>
-      <fieldValues/>
+      <fieldValues>
+        <expect-field>
+          <fieldName>seasonType</fieldName>
+          <expected>SeasonType.day</expected>
+          <successResult>true</successResult>
+          <explanation>[Period] field [seasonType] was [SeasonType.day].</explanation>
+          <operator>==</operator>
+          <nature>4</nature>
+        </expect-field>
+      </fieldValues>
       <name>Period</name>
       <anonymous>true</anonymous>
     </expect-fact>
@@ -137,7 +146,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-06-06 09:37:31.986 UTC</lastRunResult>
+  <lastRunResult>2018-06-06 09:43:54.564 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.training.leisure.swimmingpool</packageName>
