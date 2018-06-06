@@ -6,7 +6,7 @@ import org.chtijbug.example.swimmingpool.Person;
 import org.chtijbug.example.swimmingpool.Quote;
 
 rule "Calc2"
-	dialect "mvel"
+	dialect "java"
 	when
 		pp : Person( bdate : birthdate != null , age == ( -1.0 ) )
 				Quote( curDate : quoteDate != null )
