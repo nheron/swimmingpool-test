@@ -8,7 +8,7 @@ import org.chtijbug.example.swimmingpool.CalculatedAttribute;
 import org.chtijbug.example.swimmingpool.PriceType;
 
 rule "YougestUnder3YearsOldFree"
-	dialect "mvel"
+	dialect "java"
 	ruleflow-group "promotion"
 	when
 		List( size() > 3 ) from collect ( Person( age >= 3.0 )) 
