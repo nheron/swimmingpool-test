@@ -4,14 +4,15 @@ import java.lang.Number;
 import org.chtijbug.example.swimmingpool.Person;
 import org.chtijbug.example.swimmingpool.Quote;
 
-rule "null"
-	dialect "java"
+rule "CalcAgeFromCurrentDate"
+	dialect "mvel"
+	ruleflow-group "init"
 	when
 		pp : Person( bdate : birthdate != null , age == ( -1.0 ) )
-				Quote( curDate : quoteDate != null )
+		Quote( curDate : quoteDate != null )
 	then
 		modify( pp ) {
-						setAge( AgeCalculationYear(bdate,curDate) ), 
-						setStandardPrice( new BigDecimal("-1.0") )
-				}
+				setAge( AgeCalculationYear(bdate,curDate) ), 
+				setStandardPrice( new BigDecimal("-1.0") )
+		}
 end
