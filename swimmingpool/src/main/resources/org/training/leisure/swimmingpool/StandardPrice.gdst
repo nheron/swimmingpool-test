@@ -73,7 +73,7 @@
         </condition-column52>
         <condition-column52>
           <typedDefaultValue>
-            <valueNumeric>-1.0</valueNumeric>
+            <valueNumeric>0.0</valueNumeric>
             <valueString></valueString>
             <dataType>NUMERIC_BIGDECIMAL</dataType>
             <isOtherwise>false</isOtherwise>
@@ -84,7 +84,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>standardPrice</factField>
           <fieldType>BigDecimal</fieldType>
-          <operator>==</operator>
+          <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -2010,6 +2010,58 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="double">12.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="double">60.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_DOUBLE</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>0.0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>SeasonType.day</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>500</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">37</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>standard</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>java</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2041,7 +2093,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">37</valueNumeric>
+        <valueNumeric class="int">38</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
