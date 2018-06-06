@@ -9,7 +9,7 @@ rule "toto"
 	dialect "java"
 		ruleflow-group "init"
 	when
-		pp : Person( bdate : birthdate != null , standardPrice == ( -1.0 ) )
+		pp : Person( bdate : birthdate != null , standardPrice < 0 ) )
 			
 	then
 		modify( pp ) {
