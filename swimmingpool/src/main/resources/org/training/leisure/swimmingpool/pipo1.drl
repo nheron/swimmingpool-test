@@ -7,7 +7,7 @@ rule "Row 4 pipo"
 	dialect "java"
 	when
 		p : Person(  )
-		per : Period(  )
+	
 	then
 		modify( p ) {
 				setStandardPrice( new java.math.BigDecimal("12") )
