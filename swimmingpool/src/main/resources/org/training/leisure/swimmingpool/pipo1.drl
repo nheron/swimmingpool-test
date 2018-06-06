@@ -6,7 +6,7 @@ rule "Row 4 pipo"
 	ruleflow-group "standard"
 	dialect "java"
 	when
-	p : Person(  standardPrice <= -1.0b )
+	p : Person(  standardPrice <= -1.0B )
 	
 	then
 	
