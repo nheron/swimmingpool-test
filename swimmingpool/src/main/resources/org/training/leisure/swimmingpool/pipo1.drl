@@ -1,2 +1,15 @@
 package org.training.leisure.swimmingpool;
-
+import org.chtijbug.example.swimmingpool.Person;
+import org.chtijbug.example.swimmingpool.Period;
+import org.chtijbug.example.swimmingpool.SeasonType;
+rule "Row 4 pipo"
+	ruleflow-group "standard"
+	dialect "java"
+	when
+		p : Person( age >= 18.0 , age < 60.0 , standardPrice == -1.0B )
+		per : Period( seasonType.equals(SeasonType.day) )
+	then
+		modify( p ) {
+				setStandardPrice( new java.math.BigDecimal("12") )
+		}
+end
