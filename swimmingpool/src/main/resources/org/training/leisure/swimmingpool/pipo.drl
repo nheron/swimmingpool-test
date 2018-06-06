@@ -1,2 +1,20 @@
 package org.training.leisure.swimmingpool;
 
+
+import java.lang.Number;
+import org.chtijbug.example.swimmingpool.Person;
+import org.chtijbug.example.swimmingpool.Quote;
+
+rule "toto"
+	dialect "java"
+		ruleflow-group "init"
+	when
+		pp : Person( bdate : birthdate != null , standardPrice == ( -1.0 ) )
+			
+	then
+		modify( pp ) {
+						setStandardPrice(new BigDecimal("-50.0")  )
+						//setStandardPrice( new BigDecimal("-1.0") )
+				}
+end
+
