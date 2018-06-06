@@ -73,7 +73,7 @@
         </condition-column52>
         <condition-column52>
           <typedDefaultValue>
-            <valueNumeric>0.0</valueNumeric>
+            <valueNumeric>-1.0</valueNumeric>
             <valueString></valueString>
             <dataType>NUMERIC_BIGDECIMAL</dataType>
             <isOtherwise>false</isOtherwise>
@@ -2010,7 +2010,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">12.0</valueNumeric>
+        <valueNumeric class="double">18.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2022,18 +2022,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>0.0</valueNumeric>
+        <valueNumeric>-1.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SeasonType.day</valueString>
+        <valueString>SeasonType.fullYear</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>500</valueNumeric>
+        <valueNumeric>60</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
