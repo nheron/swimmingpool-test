@@ -4,9 +4,10 @@ import java.lang.Number;
 import java.math.BigDecimal;
 import org.chtijbug.example.swimmingpool.Price;
 import org.chtijbug.example.swimmingpool.Person;
+import org.chtijbug.example.swimmingpool.PriceType;
 
 rule "CalculateTotal"
-	dialect "java"
+	dialect "mvel"
 	ruleflow-group "subscription"
 	when
 		not (Price( priceType == PriceType.definitive )) 
