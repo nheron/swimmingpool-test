@@ -7,7 +7,7 @@ import org.chtijbug.example.swimmingpool.CalculatedAttribute;
 
 rule "isPersonBirthday"
 	ruleflow-group "init"
-	dialect "mvel"
+	dialect "java"
 	when
 		pper : Person( bd : birthdate != null )
 		Quote( qd : quoteDate != null )
@@ -19,7 +19,7 @@ rule "isPersonBirthday"
 		insert( ica );
 		pper.getCalculatedAttributeList().add(ica);
 		modify( pper ) {
-				setAge( -1.0 ), 
+				setAge( -1.0d ), 
 				setCalculatedAttributeList( pper.getCalculatedAttributeList() )
 		}
 end
