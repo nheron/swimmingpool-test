@@ -6,10 +6,8 @@ rule "Row 4 pipo"
 	ruleflow-group "standard"
 	dialect "java"
 	when
-		p : Person(  )
+	
 	
 	then
-		modify( p ) {
-				setStandardPrice( new java.math.BigDecimal("12") )
-		}
+	
 end
