@@ -88,7 +88,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>378</executionTimeResult>
+      <executionTimeResult>401</executionTimeResult>
       <numberOfRulesFired>11</numberOfRulesFired>
     </execution-trace>
     <expect-rule>
@@ -127,9 +127,9 @@
         <expect-field>
           <fieldName>age</fieldName>
           <expected>3.5</expected>
-          <actualResult>0.0</actualResult>
-          <successResult>true</successResult>
-          <explanation>[p2] field [age] was [3.5].</explanation>
+          <actualResult>1.5</actualResult>
+          <successResult>false</successResult>
+          <explanation>[p2] field [age] was [1.5] expected [3.5].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -210,7 +210,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-06-06 12:01:29.623 UTC</lastRunResult>
+  <lastRunResult>2018-06-06 12:07:56.433 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.training.leisure.swimmingpool</packageName>
