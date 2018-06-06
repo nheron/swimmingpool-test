@@ -7,7 +7,7 @@ import org.chtijbug.example.swimmingpool.Period;
 import org.chtijbug.example.swimmingpool.Quote;
 
 rule "CreateSubscription"
-	dialect "mvel"
+	dialect "java"
 	ruleflow-group "subscription"
 	when
 		not (Subscription( )) 
